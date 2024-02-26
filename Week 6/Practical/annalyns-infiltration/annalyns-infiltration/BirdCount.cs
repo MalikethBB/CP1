@@ -35,7 +35,8 @@ public class BirdCount
     public static int[] LastWeek()
     {
         // TODO: Implement the 'LastWeek()' method
-        throw new NotImplementedException("Please implement the (static) BirdCount.LastWeek() method");
+        //throw new NotImplementedException("Please implement the (static) BirdCount.LastWeek() method");
+        return new [] { 0, 2, 5, 3, 7, 8, 4};
     }
 
     /// <summary>
@@ -48,7 +49,8 @@ public class BirdCount
     public int Today()
     {
         // TODO: Implement the 'Today()' method
-        throw new NotImplementedException("Please implement the BirdCount.Today() method");
+        //throw new NotImplementedException("Please implement the BirdCount.Today() method");
+        return _birdsPerDay[^1];
     }
 
     /// <summary>
@@ -59,7 +61,8 @@ public class BirdCount
     public void IncrementTodaysCount()
     {
         // TODO: Implement the 'IncrementTodaysCount()' method
-        throw new NotImplementedException("Please implement the BirdCount.IncrementTodaysCount() method");
+        //throw new NotImplementedException("Please implement the BirdCount.IncrementTodaysCount() method");
+        _birdsPerDay[^1]++;
     }
 
     /// <summary>
